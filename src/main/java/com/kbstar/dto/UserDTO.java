@@ -1,8 +1,13 @@
 package com.kbstar.dto;
 
 public class UserDTO {
-    public UserDTO(String id) {
-        this.id = id;
+    private String id;
+
+    private String pwd;
+
+    private String name;
+
+    public UserDTO() {
     }
 
     public UserDTO(String id, String pwd, String name) {
@@ -44,9 +49,4 @@ public class UserDTO {
                 '}';
     }
 
-    private String id;
-
-    private String pwd;
-
-    private String name;
 }
